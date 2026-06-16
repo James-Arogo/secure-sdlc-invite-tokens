@@ -1,6 +1,6 @@
 # PR Evidence: Secure Invite Tokens
 
-This file captures the rubric-critical evidence for the secure SDLC trail. The matching GitHub PR for this revision contains the same threat-model note and self-review checklist.
+This file captures the rubric-critical evidence for the secure SDLC trail. GitHub PR: [#1](https://github.com/James-Arogo/secure-sdlc-invite-tokens/pull/1) contains the same threat-model note and self-review checklist.
 
 ## Threat-Model Note
 
