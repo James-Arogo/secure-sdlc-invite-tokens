@@ -34,6 +34,10 @@ claims = verify_invite_token(token, "partner-portal", secret=secret)
 python3 -m unittest discover -s tests
 ```
 
+## Submission Write-Up
+
+The assessor-facing write-up is in [`SUBMISSION_WRITEUP.md`](SUBMISSION_WRITEUP.md). It explains the feature, threat model, remediated vulnerability, review evidence, tests, and AI usage.
+
 ## SDLC Evidence
 
 - Feature PR note: `docs/prs/001-secure-invite-tokens.md`
