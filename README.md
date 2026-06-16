@@ -42,6 +42,7 @@ The assessor-facing write-up is in [`SUBMISSION_WRITEUP.md`](SUBMISSION_WRITEUP.
 
 - Feature PR note: `docs/prs/001-secure-invite-tokens.md`
 - Security review: `docs/reviews/001-security-review.md`
+- Rubric-specific PR evidence: `PR_EVIDENCE.md`
 - Tests: `tests/test_invites.py`
 
 ## Vulnerability History
