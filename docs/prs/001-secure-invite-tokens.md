@@ -2,7 +2,7 @@
 
 ## Summary
 
-Add invitation-token creation and verification for onboarding workflows. Tokens carry a subject, audience, issued-at timestamp, and expiry timestamp.
+Add invitation-token creation and verification for onboarding workflows. Tokens carry a subject, audience, issued-at timestamp, and expiry timestamp. The remediated implementation signs the canonical payload with HMAC-SHA256.
 
 ## Threat Model
 
@@ -27,6 +27,8 @@ Add invitation-token creation and verification for onboarding workflows. Tokens 
 
 ### Controls
 
+- sign canonical JSON payloads with HMAC-SHA256
+- verify signatures with constant-time comparison
 - enforce explicit audience during verification
 - enforce token expiry
 - reject malformed or incomplete claims
@@ -39,4 +41,3 @@ Run:
 ```bash
 python3 -m unittest discover -s tests
 ```
-
